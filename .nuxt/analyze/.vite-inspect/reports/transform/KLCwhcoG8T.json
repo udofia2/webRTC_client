@@ -1,0 +1,214 @@
+{
+  "resolvedId": "/home/udofia/Desktop/PROJECT/CLIENTS/MRS_TAYO/client/pages/custom.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\n  <HeaderNarBar />\n  <h2 class=\"her\">This works</h2>\n  <div class=\"cus text-3xl font-bold underline\">\n    <h1>hello custom page</h1>\n  </div>\n</template>\n",
+      "start": 1700109003676,
+      "end": 1700109005835,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1700109005835,
+      "end": 1700109005835,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1700109005835,
+      "end": 1700109005835,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1700109005835,
+      "end": 1700109005836,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1700109005836,
+      "end": 1700109005836,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1700109005836,
+      "end": 1700109005836,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1700109005836,
+      "end": 1700109005836,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1700109005836,
+      "end": 1700109005836,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = /*#__PURE__*/_createElementVNode(\"h2\", { class: \"her\" }, \"This works\", -1)\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"cus text-3xl font-bold underline\" }, [\n  /*#__PURE__*/_createElementVNode(\"h1\", null, \"hello custom page\")\n], -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_HeaderNarBar = _resolveComponent(\"HeaderNarBar\")\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_HeaderNarBar),\n    _hoisted_1,\n    _hoisted_2\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1700109005836,
+      "end": 1700109005839,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1700109005839,
+      "end": 1700109005839,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1700109005839,
+      "end": 1700109005839,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1700109005839,
+      "end": 1700109005839,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1700109005839,
+      "end": 1700109005839,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1700109005839,
+      "end": 1700109005840,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1700109005840,
+      "end": 1700109005840,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1700109005840,
+      "end": 1700109005840,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1700109005840,
+      "end": 1700109005840,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1700109005840,
+      "end": 1700109005840,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1700109005840,
+      "end": 1700109005840,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1700109005840,
+      "end": 1700109005840,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1700109005840,
+      "end": 1700109005840,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1700109005840,
+      "end": 1700109005840,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1700109005840,
+      "end": 1700109005840,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1700109005840,
+      "end": 1700109005840,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1700109005840,
+      "end": 1700109005840,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1700109005841,
+      "end": 1700109005842,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1700109005843,
+      "end": 1700109005843,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1700109005843,
+      "end": 1700109005843,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1700109005843,
+      "end": 1700109005843,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1700109005843,
+      "end": 1700109005843,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1700109005843,
+      "end": 1700109005844,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1700109005844,
+      "end": 1700109005844,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1700109005844,
+      "end": 1700109005844,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1700109005844,
+      "end": 1700109005844,
+      "order": "normal"
+    }
+  ]
+}

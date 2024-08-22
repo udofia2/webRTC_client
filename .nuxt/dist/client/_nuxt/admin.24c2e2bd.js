@@ -1,0 +1,1 @@
+import{_ as d}from"./_plugin-vue_export-helper.c27b6911.js";import{i as e,x as c,A as n,G as s,v as i}from"./entry.5a5af440.js";const m={};function _(o,l){const r=e("AdminHeader"),t=e("AdminSideBarToggle"),a=e("AdminSideBar");return i(),c("div",null,[n(r),n(t),n(a),s(o.$slots,"default")])}const A=d(m,[["render",_]]);export{A as default};

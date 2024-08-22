@@ -1,0 +1,259 @@
+{
+  "resolvedId": "/home/udofia/Desktop/PROJECT/CLIENTS/MRS_TAYO/client/components/Icons/Cart.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    width=\"1em\"\n    height=\"1em\"\n    viewBox=\"0 0 24 24\"\n  >\n    <path\n      fill=\"currentColor\"\n      d=\"M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2s-.9-2-2-2zM1 2v2h2l3.6 7.59l-1.35 2.45c-.16.28-.25.61-.25.96c0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12l.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49A1.003 1.003 0 0 0 20 4H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2s2-.9 2-2s-.9-2-2-2z\"\n    ></path>\n  </svg>\n</template>\n\n<script lang=\"ts\">\nexport default {\n  name: \"IcBaselineLocalGroceryStore\",\n};\n</script>\n",
+      "start": 1700109024558,
+      "end": 1700109025493,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1700109025493,
+      "end": 1700109025493,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1700109025493,
+      "end": 1700109025493,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1700109025493,
+      "end": 1700109025493,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1700109025493,
+      "end": 1700109025493,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1700109025493,
+      "end": 1700109025494,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1700109025494,
+      "end": 1700109025494,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1700109025494,
+      "end": 1700109025494,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1700109025494,
+      "end": 1700109025494,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1700109025494,
+      "end": 1700109025494,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"/home/udofia/Desktop/PROJECT/CLIENTS/MRS_TAYO/client/components/Icons/Cart.vue?vue&type=script&lang.ts\";\nexport * from \"/home/udofia/Desktop/PROJECT/CLIENTS/MRS_TAYO/client/components/Icons/Cart.vue?vue&type=script&lang.ts\";\nimport { mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\";\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  _push(`<svg${_ssrRenderAttrs(_mergeProps({\n    xmlns: \"http://www.w3.org/2000/svg\",\n    width: \"1em\",\n    height: \"1em\",\n    viewBox: \"0 0 24 24\"\n  }, _attrs))}><path fill=\"currentColor\" d=\"M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2s-.9-2-2-2zM1 2v2h2l3.6 7.59l-1.35 2.45c-.16.28-.25.61-.25.96c0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12l.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49A1.003 1.003 0 0 0 20 4H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2s2-.9 2-2s-.9-2-2-2z\"></path></svg>`);\n}\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"components/Icons/Cart.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"ssrRender\", _sfc_ssrRender]]);\n",
+      "start": 1700109025494,
+      "end": 1700109025560,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "mappings": ";;;;SAES,eAAC,sBAA4B;QAClC,OAAM,gBAAK;AAAA,IACX,OAAM;AAAA,IACN,OAAO;AAAA",
+        "names": [],
+        "sources": [
+          "/home/udofia/Desktop/PROJECT/CLIENTS/MRS_TAYO/client/components/Icons/Cart.vue"
+        ],
+        "sourcesContent": [
+          "<template>\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    width=\"1em\"\n    height=\"1em\"\n    viewBox=\"0 0 24 24\"\n  >\n    <path\n      fill=\"currentColor\"\n      d=\"M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2s-.9-2-2-2zM1 2v2h2l3.6 7.59l-1.35 2.45c-.16.28-.25.61-.25.96c0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12l.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49A1.003 1.003 0 0 0 20 4H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2s2-.9 2-2s-.9-2-2-2z\"\n    ></path>\n  </svg>\n</template>\n\n<script lang=\"ts\">\nexport default {\n  name: \"IcBaselineLocalGroceryStore\",\n};\n</script>\n"
+        ],
+        "file": "/home/udofia/Desktop/PROJECT/CLIENTS/MRS_TAYO/client/components/Icons/Cart.vue"
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1700109025560,
+      "end": 1700109025560,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1700109025561,
+      "end": 1700109025561,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1700109025561,
+      "end": 1700109025561,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1700109025561,
+      "end": 1700109025561,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1700109025561,
+      "end": 1700109025561,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1700109025561,
+      "end": 1700109025561,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1700109025562,
+      "end": 1700109025562,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1700109025562,
+      "end": 1700109025562,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1700109025562,
+      "end": 1700109025562,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1700109025562,
+      "end": 1700109025562,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1700109025563,
+      "end": 1700109025563,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1700109025563,
+      "end": 1700109025563,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1700109025563,
+      "end": 1700109025563,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1700109025563,
+      "end": 1700109025563,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1700109025563,
+      "end": 1700109025563,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1700109025563,
+      "end": 1700109025563,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1700109025563,
+      "end": 1700109025564,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1700109025563,
+      "end": 1700109025564,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1700109025564,
+      "end": 1700109025568,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1700109025564,
+      "end": 1700109025568,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1700109025569,
+      "end": 1700109025569,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1700109025569,
+      "end": 1700109025569,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1700109025569,
+      "end": 1700109025569,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1700109025569,
+      "end": 1700109025569,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1700109025569,
+      "end": 1700109025570,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1700109025570,
+      "end": 1700109025570,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1700109025570,
+      "end": 1700109025570,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1700109025570,
+      "end": 1700109025571,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1700109025571,
+      "end": 1700109025571,
+      "order": "normal"
+    }
+  ]
+}

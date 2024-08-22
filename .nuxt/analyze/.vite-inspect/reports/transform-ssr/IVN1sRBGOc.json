@@ -1,0 +1,259 @@
+{
+  "resolvedId": "/home/udofia/Desktop/PROJECT/CLIENTS/MRS_TAYO/client/components/Icons/Dental.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\n<template>\n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" height=\"1em\" viewBox=\"0 0 64 64\"><path fill=\"currentColor\" d=\"M32.119 34.179c4.725 0 6.916 3.587 7.378 8.679c.109 1.219-.005 2.995-.161 5.053c-.531 6.836-1.142 15.236 3.41 15.236c3.849 0 5.827-7.386 6.968-15.804c1.102-8.334-.065-12.481.508-16.181c1.094-7.011 7.215-13.297 5.324-22.237c-1.047-4.959-3.777-7.292-6.483-8.272c-6.231-2.268-10.255 2.102-16.946 2.102c-6.691 0-10.714-4.37-16.948-2.102c-2.703.98-5.433 3.313-6.482 8.272c-1.889 8.939 4.229 15.226 5.326 22.237c.573 3.7-.593 7.847.509 16.181c1.141 8.419 3.119 15.804 6.968 15.804c4.549 0 3.942-8.4 3.41-15.236c-.156-2.057-.271-3.834-.162-5.053c.46-5.092 2.682-8.679 7.379-8.679z\"></path></svg>\n</template>\n\n<script>\nexport default {\n  name: 'MedicalIconIDental'\n}\n</script>",
+      "start": 1700109024558,
+      "end": 1700109025468,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1700109025469,
+      "end": 1700109025469,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1700109025469,
+      "end": 1700109025469,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1700109025469,
+      "end": 1700109025469,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1700109025469,
+      "end": 1700109025469,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1700109025469,
+      "end": 1700109025469,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1700109025469,
+      "end": 1700109025469,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1700109025470,
+      "end": 1700109025470,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1700109025470,
+      "end": 1700109025470,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1700109025470,
+      "end": 1700109025470,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "\nconst _sfc_main = {\n  name: 'MedicalIconIDental'\n}\n\nimport { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  _push(`<svg${_ssrRenderAttrs(_mergeProps({\n    xmlns: \"http://www.w3.org/2000/svg\",\n    width: \"1em\",\n    height: \"1em\",\n    viewBox: \"0 0 64 64\"\n  }, _attrs))}><path fill=\"currentColor\" d=\"M32.119 34.179c4.725 0 6.916 3.587 7.378 8.679c.109 1.219-.005 2.995-.161 5.053c-.531 6.836-1.142 15.236 3.41 15.236c3.849 0 5.827-7.386 6.968-15.804c1.102-8.334-.065-12.481.508-16.181c1.094-7.011 7.215-13.297 5.324-22.237c-1.047-4.959-3.777-7.292-6.483-8.272c-6.231-2.268-10.255 2.102-16.946 2.102c-6.691 0-10.714-4.37-16.948-2.102c-2.703.98-5.433 3.313-6.482 8.272c-1.889 8.939 4.229 15.226 5.326 22.237c.573 3.7-.593 7.847.509 16.181c1.141 8.419 3.119 15.804 6.968 15.804c4.549 0 3.942-8.4 3.41-15.236c-.156-2.057-.271-3.834-.162-5.053c.46-5.092 2.682-8.679 7.379-8.679z\"></path></svg>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/Icons/Dental.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
+      "start": 1700109025470,
+      "end": 1700109025481,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "/home/udofia/Desktop/PROJECT/CLIENTS/MRS_TAYO/client/components/Icons/Dental.vue",
+        "names": [],
+        "sources": [
+          "/home/udofia/Desktop/PROJECT/CLIENTS/MRS_TAYO/client/components/Icons/Dental.vue"
+        ],
+        "sourcesContent": [
+          "\n<template>\n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" height=\"1em\" viewBox=\"0 0 64 64\"><path fill=\"currentColor\" d=\"M32.119 34.179c4.725 0 6.916 3.587 7.378 8.679c.109 1.219-.005 2.995-.161 5.053c-.531 6.836-1.142 15.236 3.41 15.236c3.849 0 5.827-7.386 6.968-15.804c1.102-8.334-.065-12.481.508-16.181c1.094-7.011 7.215-13.297 5.324-22.237c-1.047-4.959-3.777-7.292-6.483-8.272c-6.231-2.268-10.255 2.102-16.946 2.102c-6.691 0-10.714-4.37-16.948-2.102c-2.703.98-5.433 3.313-6.482 8.272c-1.889 8.939 4.229 15.226 5.326 22.237c.573 3.7-.593 7.847.509 16.181c1.141 8.419 3.119 15.804 6.968 15.804c4.549 0 3.942-8.4 3.41-15.236c-.156-2.057-.271-3.834-.162-5.053c.46-5.092 2.682-8.679 7.379-8.679z\"></path></svg>\n</template>\n\n<script>\nexport default {\n  name: 'MedicalIconIDental'\n}\n</script>"
+        ],
+        "mappings": ";AAMA,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EACb,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3B;;;;;;;IANO,KAAK,EAAC,4BAA4B;IAAC,KAAK,EAAC,KAAK;IAAC,MAAM,EAAC,KAAK;IAAC,OAAO,EAAC,WAAW"
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1700109025481,
+      "end": 1700109025482,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1700109025482,
+      "end": 1700109025482,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1700109025482,
+      "end": 1700109025482,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1700109025482,
+      "end": 1700109025482,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1700109025482,
+      "end": 1700109025482,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1700109025482,
+      "end": 1700109025482,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1700109025482,
+      "end": 1700109025482,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1700109025482,
+      "end": 1700109025483,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1700109025483,
+      "end": 1700109025483,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1700109025483,
+      "end": 1700109025483,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1700109025483,
+      "end": 1700109025483,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1700109025483,
+      "end": 1700109025483,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1700109025483,
+      "end": 1700109025483,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1700109025483,
+      "end": 1700109025483,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1700109025483,
+      "end": 1700109025483,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1700109025483,
+      "end": 1700109025483,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1700109025483,
+      "end": 1700109025484,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1700109025483,
+      "end": 1700109025484,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1700109025484,
+      "end": 1700109025485,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1700109025484,
+      "end": 1700109025485,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1700109025485,
+      "end": 1700109025486,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1700109025485,
+      "end": 1700109025486,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1700109025486,
+      "end": 1700109025486,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1700109025486,
+      "end": 1700109025486,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1700109025486,
+      "end": 1700109025486,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1700109025486,
+      "end": 1700109025486,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1700109025486,
+      "end": 1700109025486,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1700109025486,
+      "end": 1700109025486,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1700109025486,
+      "end": 1700109025487,
+      "order": "normal"
+    }
+  ]
+}

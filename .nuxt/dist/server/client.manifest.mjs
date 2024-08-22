@@ -1,0 +1,1 @@
+export { default } from "file:///home/udofia/Desktop/PROJECT/INTERVIEW/newwaveseconomy/client/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

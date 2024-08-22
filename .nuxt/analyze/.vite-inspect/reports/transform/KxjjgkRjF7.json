@@ -1,0 +1,215 @@
+{
+  "resolvedId": "/home/udofia/Desktop/PROJECT/CLIENTS/MRS_TAYO/client/components/Header/NavBar.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\n  <header\n    class=\"flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-blue-600 text-sm py-3 sm:py-0\"\n  >\n    <nav\n      class=\"relative max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8\"\n      aria-label=\"Global\"\n    >\n      <div class=\"flex items-center justify-between\">\n        <a\n          class=\"flex-none text-xl font-semibold text-white\"\n          href=\"#\"\n          aria-label=\"Brand\"\n          >Brand</a\n        >\n        <div class=\"sm:hidden\">\n          <button\n            type=\"button\"\n            class=\"hs-collapse-toggle w-9 h-9 flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-white/20 text-white hover:border-white/40 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600\"\n            data-hs-collapse=\"#navbar-collapse-with-animation\"\n            aria-controls=\"navbar-collapse-with-animation\"\n            aria-label=\"Toggle navigation\"\n          >\n            <svg\n              class=\"hs-collapse-open:hidden flex-shrink-0 w-4 h-4\"\n              xmlns=\"http://www.w3.org/2000/svg\"\n              width=\"24\"\n              height=\"24\"\n              viewBox=\"0 0 24 24\"\n              fill=\"none\"\n              stroke=\"currentColor\"\n              stroke-width=\"2\"\n              stroke-linecap=\"round\"\n              stroke-linejoin=\"round\"\n            >\n              <line x1=\"3\" x2=\"21\" y1=\"6\" y2=\"6\" />\n              <line x1=\"3\" x2=\"21\" y1=\"12\" y2=\"12\" />\n              <line x1=\"3\" x2=\"21\" y1=\"18\" y2=\"18\" />\n            </svg>\n            <svg\n              class=\"hs-collapse-open:block hidden flex-shrink-0 w-4 h-4\"\n              xmlns=\"http://www.w3.org/2000/svg\"\n              width=\"24\"\n              height=\"24\"\n              viewBox=\"0 0 24 24\"\n              fill=\"none\"\n              stroke=\"currentColor\"\n              stroke-width=\"2\"\n              stroke-linecap=\"round\"\n              stroke-linejoin=\"round\"\n            >\n              <path d=\"M18 6 6 18\" />\n              <path d=\"m6 6 12 12\" />\n            </svg>\n          </button>\n        </div>\n      </div>\n      <div\n        id=\"navbar-collapse-with-animation\"\n        class=\"hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block\"\n      >\n        <div\n          class=\"flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7\"\n        >\n          <div class=\"flex items-center font-medium text-white sm:py-6\">\n            <IconsStore />\n            <a class=\"\" href=\"#\" aria-current=\"page\"> Shop </a>\n          </div>\n\n          <div\n            class=\"flex items-center font-medium text-white/[.8] hover:text-white sm:py-6\"\n          >\n            <IconsDental />\n            <a class=\"\" href=\"#\"> Find a Dentist</a>\n          </div>\n          <div\n            class=\"flex items-center font-medium text-white/[.8] hover:text-white text-white sm:py-6\"\n          >\n            <a class=\"\" href=\"#\">Dentist Signup</a>\n          </div>\n          <div\n            class=\"flex items-center font-medium text-white/[.8] hover:text-white text-white sm:py-6\"\n          >\n            <a class=\"\" href=\"#\">Dentist Login</a>\n          </div>\n          <div\n            class=\"flex items-center font-medium text-white/[.8] hover:text-white text-white sm:py-6\"\n          >\n            <a class=\"\" href=\"#\">Blog</a>\n          </div>\n          <div\n            class=\"flex items-center font-medium text-white/[.8] hover:text-white text-white sm:py-6\"\n          >\n            <a class=\"\" href=\"#\">Podcast</a>\n          </div>\n          <div\n            class=\"flex items-center font-medium text-white/[.8] hover:text-white text-white sm:py-6\"\n          >\n            <IconsCart />\n            <a class=\"\" href=\"#\">Buy</a>\n          </div>\n\n          <div class=\"hidden lg:flex\">\n            <form class=\"flex items-center\">\n              <input\n                type=\"text\"\n                class=\"form-input rounded-md border-gray-300 py-2 px-3 w-64\"\n                placeholder=\"Search\"\n              />\n              <a\n                type=\"submit\"\n                class=\"ml-2 rounded-md bg-indigo-600 text-white font-semibold py-2 px-3 hover:bg-indigo-700\"\n              >\n                Search\n              </a>\n            </form>\n          </div>\n        </div>\n      </div>\n    </nav>\n  </header>\n</template>\n",
+      "start": 1700109007254,
+      "end": 1700109008357,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1700109008357,
+      "end": 1700109008357,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1700109008357,
+      "end": 1700109008357,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1700109008358,
+      "end": 1700109008358,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1700109008358,
+      "end": 1700109008358,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1700109008358,
+      "end": 1700109008358,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1700109008358,
+      "end": 1700109008358,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1700109008358,
+      "end": 1700109008358,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-blue-600 text-sm py-3 sm:py-0\" }\nconst _hoisted_2 = {\n  class: \"relative max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8\",\n  \"aria-label\": \"Global\"\n}\nconst _hoisted_3 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"flex items-center justify-between\\\"><a class=\\\"flex-none text-xl font-semibold text-white\\\" href=\\\"#\\\" aria-label=\\\"Brand\\\">Brand</a><div class=\\\"sm:hidden\\\"><button type=\\\"button\\\" class=\\\"hs-collapse-toggle w-9 h-9 flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-white/20 text-white hover:border-white/40 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600\\\" data-hs-collapse=\\\"#navbar-collapse-with-animation\\\" aria-controls=\\\"navbar-collapse-with-animation\\\" aria-label=\\\"Toggle navigation\\\"><svg class=\\\"hs-collapse-open:hidden flex-shrink-0 w-4 h-4\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"24\\\" height=\\\"24\\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"2\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\"><line x1=\\\"3\\\" x2=\\\"21\\\" y1=\\\"6\\\" y2=\\\"6\\\"></line><line x1=\\\"3\\\" x2=\\\"21\\\" y1=\\\"12\\\" y2=\\\"12\\\"></line><line x1=\\\"3\\\" x2=\\\"21\\\" y1=\\\"18\\\" y2=\\\"18\\\"></line></svg><svg class=\\\"hs-collapse-open:block hidden flex-shrink-0 w-4 h-4\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"24\\\" height=\\\"24\\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"2\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\"><path d=\\\"M18 6 6 18\\\"></path><path d=\\\"m6 6 12 12\\\"></path></svg></button></div></div>\", 1)\nconst _hoisted_4 = {\n  id: \"navbar-collapse-with-animation\",\n  class: \"hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block\"\n}\nconst _hoisted_5 = { class: \"flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7\" }\nconst _hoisted_6 = { class: \"flex items-center font-medium text-white sm:py-6\" }\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"a\", {\n  class: \"\",\n  href: \"#\",\n  \"aria-current\": \"page\"\n}, \" Shop \", -1)\nconst _hoisted_8 = { class: \"flex items-center font-medium text-white/[.8] hover:text-white sm:py-6\" }\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"a\", {\n  class: \"\",\n  href: \"#\"\n}, \" Find a Dentist\", -1)\nconst _hoisted_10 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"flex items-center font-medium text-white/[.8] hover:text-white text-white sm:py-6\\\"><a class=\\\"\\\" href=\\\"#\\\">Dentist Signup</a></div><div class=\\\"flex items-center font-medium text-white/[.8] hover:text-white text-white sm:py-6\\\"><a class=\\\"\\\" href=\\\"#\\\">Dentist Login</a></div><div class=\\\"flex items-center font-medium text-white/[.8] hover:text-white text-white sm:py-6\\\"><a class=\\\"\\\" href=\\\"#\\\">Blog</a></div><div class=\\\"flex items-center font-medium text-white/[.8] hover:text-white text-white sm:py-6\\\"><a class=\\\"\\\" href=\\\"#\\\">Podcast</a></div>\", 4)\nconst _hoisted_14 = { class: \"flex items-center font-medium text-white/[.8] hover:text-white text-white sm:py-6\" }\nconst _hoisted_15 = /*#__PURE__*/_createElementVNode(\"a\", {\n  class: \"\",\n  href: \"#\"\n}, \"Buy\", -1)\nconst _hoisted_16 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"hidden lg:flex\" }, [\n  /*#__PURE__*/_createElementVNode(\"form\", { class: \"flex items-center\" }, [\n    /*#__PURE__*/_createElementVNode(\"input\", {\n      type: \"text\",\n      class: \"form-input rounded-md border-gray-300 py-2 px-3 w-64\",\n      placeholder: \"Search\"\n    }),\n    /*#__PURE__*/_createElementVNode(\"a\", {\n      type: \"submit\",\n      class: \"ml-2 rounded-md bg-indigo-600 text-white font-semibold py-2 px-3 hover:bg-indigo-700\"\n    }, \" Search \")\n  ])\n], -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_IconsStore = _resolveComponent(\"IconsStore\")\n  const _component_IconsDental = _resolveComponent(\"IconsDental\")\n  const _component_IconsCart = _resolveComponent(\"IconsCart\")\n\n  return (_openBlock(), _createElementBlock(\"header\", _hoisted_1, [\n    _createElementVNode(\"nav\", _hoisted_2, [\n      _hoisted_3,\n      _createElementVNode(\"div\", _hoisted_4, [\n        _createElementVNode(\"div\", _hoisted_5, [\n          _createElementVNode(\"div\", _hoisted_6, [\n            _createVNode(_component_IconsStore),\n            _hoisted_7\n          ]),\n          _createElementVNode(\"div\", _hoisted_8, [\n            _createVNode(_component_IconsDental),\n            _hoisted_9\n          ]),\n          _hoisted_10,\n          _createElementVNode(\"div\", _hoisted_14, [\n            _createVNode(_component_IconsCart),\n            _hoisted_15\n          ]),\n          _hoisted_16\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1700109008358,
+      "end": 1700109008373,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1700109008373,
+      "end": 1700109008373,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1700109008373,
+      "end": 1700109008373,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1700109008373,
+      "end": 1700109008374,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1700109008374,
+      "end": 1700109008374,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1700109008374,
+      "end": 1700109008374,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1700109008374,
+      "end": 1700109008374,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1700109008374,
+      "end": 1700109008374,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1700109008374,
+      "end": 1700109008375,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1700109008375,
+      "end": 1700109008375,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1700109008375,
+      "end": 1700109008375,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1700109008375,
+      "end": 1700109008375,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1700109008375,
+      "end": 1700109008375,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1700109008375,
+      "end": 1700109008375,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1700109008375,
+      "end": 1700109008375,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1700109008375,
+      "end": 1700109008375,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1700109008375,
+      "end": 1700109008375,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1700109008375,
+      "end": 1700109008378,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1700109008379,
+      "end": 1700109008379,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1700109008379,
+      "end": 1700109008379,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1700109008379,
+      "end": 1700109008379,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1700109008379,
+      "end": 1700109008379,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"/home/udofia/Desktop/PROJECT/CLIENTS/MRS_TAYO/client/components/Icons/Store.vue\";\nimport { default as __nuxt_component_1 } from \"/home/udofia/Desktop/PROJECT/CLIENTS/MRS_TAYO/client/components/Icons/Dental.vue\";\nimport { default as __nuxt_component_2 } from \"/home/udofia/Desktop/PROJECT/CLIENTS/MRS_TAYO/client/components/Icons/Cart.vue\";\nconst _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-blue-600 text-sm py-3 sm:py-0\" }\nconst _hoisted_2 = {\n  class: \"relative max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8\",\n  \"aria-label\": \"Global\"\n}\nconst _hoisted_3 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"flex items-center justify-between\\\"><a class=\\\"flex-none text-xl font-semibold text-white\\\" href=\\\"#\\\" aria-label=\\\"Brand\\\">Brand</a><div class=\\\"sm:hidden\\\"><button type=\\\"button\\\" class=\\\"hs-collapse-toggle w-9 h-9 flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-white/20 text-white hover:border-white/40 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600\\\" data-hs-collapse=\\\"#navbar-collapse-with-animation\\\" aria-controls=\\\"navbar-collapse-with-animation\\\" aria-label=\\\"Toggle navigation\\\"><svg class=\\\"hs-collapse-open:hidden flex-shrink-0 w-4 h-4\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"24\\\" height=\\\"24\\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"2\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\"><line x1=\\\"3\\\" x2=\\\"21\\\" y1=\\\"6\\\" y2=\\\"6\\\"></line><line x1=\\\"3\\\" x2=\\\"21\\\" y1=\\\"12\\\" y2=\\\"12\\\"></line><line x1=\\\"3\\\" x2=\\\"21\\\" y1=\\\"18\\\" y2=\\\"18\\\"></line></svg><svg class=\\\"hs-collapse-open:block hidden flex-shrink-0 w-4 h-4\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"24\\\" height=\\\"24\\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"2\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\"><path d=\\\"M18 6 6 18\\\"></path><path d=\\\"m6 6 12 12\\\"></path></svg></button></div></div>\", 1)\nconst _hoisted_4 = {\n  id: \"navbar-collapse-with-animation\",\n  class: \"hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block\"\n}\nconst _hoisted_5 = { class: \"flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7\" }\nconst _hoisted_6 = { class: \"flex items-center font-medium text-white sm:py-6\" }\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"a\", {\n  class: \"\",\n  href: \"#\",\n  \"aria-current\": \"page\"\n}, \" Shop \", -1)\nconst _hoisted_8 = { class: \"flex items-center font-medium text-white/[.8] hover:text-white sm:py-6\" }\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"a\", {\n  class: \"\",\n  href: \"#\"\n}, \" Find a Dentist\", -1)\nconst _hoisted_10 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"flex items-center font-medium text-white/[.8] hover:text-white text-white sm:py-6\\\"><a class=\\\"\\\" href=\\\"#\\\">Dentist Signup</a></div><div class=\\\"flex items-center font-medium text-white/[.8] hover:text-white text-white sm:py-6\\\"><a class=\\\"\\\" href=\\\"#\\\">Dentist Login</a></div><div class=\\\"flex items-center font-medium text-white/[.8] hover:text-white text-white sm:py-6\\\"><a class=\\\"\\\" href=\\\"#\\\">Blog</a></div><div class=\\\"flex items-center font-medium text-white/[.8] hover:text-white text-white sm:py-6\\\"><a class=\\\"\\\" href=\\\"#\\\">Podcast</a></div>\", 4)\nconst _hoisted_14 = { class: \"flex items-center font-medium text-white/[.8] hover:text-white text-white sm:py-6\" }\nconst _hoisted_15 = /*#__PURE__*/_createElementVNode(\"a\", {\n  class: \"\",\n  href: \"#\"\n}, \"Buy\", -1)\nconst _hoisted_16 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"hidden lg:flex\" }, [\n  /*#__PURE__*/_createElementVNode(\"form\", { class: \"flex items-center\" }, [\n    /*#__PURE__*/_createElementVNode(\"input\", {\n      type: \"text\",\n      class: \"form-input rounded-md border-gray-300 py-2 px-3 w-64\",\n      placeholder: \"Search\"\n    }),\n    /*#__PURE__*/_createElementVNode(\"a\", {\n      type: \"submit\",\n      class: \"ml-2 rounded-md bg-indigo-600 text-white font-semibold py-2 px-3 hover:bg-indigo-700\"\n    }, \" Search \")\n  ])\n], -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_IconsStore = __nuxt_component_0\n  const _component_IconsDental = __nuxt_component_1\n  const _component_IconsCart = __nuxt_component_2\n\n  return (_openBlock(), _createElementBlock(\"header\", _hoisted_1, [\n    _createElementVNode(\"nav\", _hoisted_2, [\n      _hoisted_3,\n      _createElementVNode(\"div\", _hoisted_4, [\n        _createElementVNode(\"div\", _hoisted_5, [\n          _createElementVNode(\"div\", _hoisted_6, [\n            _createVNode(_component_IconsStore),\n            _hoisted_7\n          ]),\n          _createElementVNode(\"div\", _hoisted_8, [\n            _createVNode(_component_IconsDental),\n            _hoisted_9\n          ]),\n          _hoisted_10,\n          _createElementVNode(\"div\", _hoisted_14, [\n            _createVNode(_component_IconsCart),\n            _hoisted_15\n          ]),\n          _hoisted_16\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1700109008379,
+      "end": 1700109008380,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1700109008380,
+      "end": 1700109008380,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1700109008380,
+      "end": 1700109008381,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1700109008381,
+      "end": 1700109008381,
+      "order": "normal"
+    }
+  ]
+}

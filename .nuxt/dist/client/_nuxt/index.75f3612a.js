@@ -1,0 +1,1 @@
+import{d as n,t,i as o,v as a,F as s}from"./entry.5a5af440.js";const p=n({__name:"index",setup(r){return t({title:"Toothtraffic9ja: Best platform to find dentist around you.",meta:[{name:"Dentist",content:"Find a professional dentist in your area."}]}),(i,c)=>{const e=o("HerosLanding");return a(),s(e)}}});export{p as default};

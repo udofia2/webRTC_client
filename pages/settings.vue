@@ -15,7 +15,6 @@
         <h1 class="text-xl font-semibold pl-6">Device Settings</h1>
         <button @click="closeSettings" class="absolute top-16 right-24 p-2 text-white hover:bg-[#1e6d3d] rounded-full">
             <IconsClose />
-            <!-- <IconsMic /> -->
           </button>
         <hr class="h-px bg-gray-400 border-0 dark:bg-gray-700  m-6">
         <div class="px-6">
@@ -29,7 +28,7 @@
                 <select id="video-device" v-model="selectedVideoDevice" class="ps-10 mt-1 block w-full px-3 py-2 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-[#295935] focus:border-[#295935] sm:text-sm bg-[#295935]">
                   <option value="" disabled>Select a video device</option>
                   <option v-for="device in videoDevices" :key="device.deviceId" :value="device.deviceId">
-                    {{ getDeviceLabel(device) }}
+                    {{ useDeviceLabel(device,videoDevices, audioOutputDevices, audioDevices ) }}
                   </option>
                 </select>
               </div>
@@ -52,7 +51,7 @@
               <select id="audio-device" v-model="selectedAudioDevice" class="mt-1 ps-10 block w-full px-3 py-2 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-[#295935] focus:border-[#295935] sm:text-sm bg-[#295935]">
                 <option value="" disabled>Select an audio device</option>
                 <option v-for="device in audioDevices" :key="device.deviceId" :value="device.deviceId">
-                  {{ getDeviceLabel(device) }}
+                  {{ useDeviceLabel(device,videoDevices, audioOutputDevices, audioDevices ) }}
                 </option>
               </select>
 
@@ -68,7 +67,7 @@
                   <select id="audio-output-device" v-model="selectedAudioOutputDevice" class="ps-10 block w-full px-3 py-2 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-[#295935] focus:border-[#295935] sm:text-sm bg-[#295935]">
                     <option value="" disabled>Select an audio output device</option>
                     <option v-for="device in audioOutputDevices" :key="device.deviceId" :value="device.deviceId">
-                      {{ getDeviceLabel(device) }}
+                      {{useDeviceLabel(device,videoDevices, audioOutputDevices, audioDevices ) }}
                     </option>
                   </select>
                 </div>
@@ -91,6 +90,8 @@
 </template>
 
 <script setup>
+import { useAudioOutputDevices } from '~/composables/useMediaSettings';
+
 
 const router = useRouter();
 
@@ -101,6 +102,7 @@ const audioDevices = ref([]);
 const selectedAudioDevice = ref('');
 const audioOutputDevices = ref([]);
 const selectedAudioOutputDevice = ref('');
+const audioRef = ref(null);
 
 const videoQualities = [
   { value: 'low', label: 'Low' },
@@ -108,129 +110,33 @@ const videoQualities = [
   { value: 'high', label: 'High' }
 ];
 
-const getAudioOutputDevices = async () => {
-  try {
-    const devices = await navigator.mediaDevices.enumerateDevices();
-    audioOutputDevices.value = devices.filter(device => device.kind === 'audiooutput');
-
-    // Set the first device as the default selected device
-    if (audioOutputDevices.value.length > 0) {
-      selectedAudioOutputDevice.value = audioOutputDevices.value[0].deviceId;
-    }
-  } catch (error) {
-    console.error('Error enumerating devices:', error);
-  }
-};
-
-const getAudioDevices = async () => {
-  try {
-    const devices = await navigator.mediaDevices.enumerateDevices();
-    audioDevices.value = devices.filter(device => device.kind === 'audioinput');
-
-    // Set the first device as the default selected device
-    if (audioDevices.value.length > 0) {
-      selectedAudioDevice.value = audioDevices.value[0].deviceId;
-    }
-  } catch (error) {
-    console.error('Error enumerating devices:', error);
-  }
-};
-
-const getVideoDevices = async () => {
-  try {
-    const devices = await navigator.mediaDevices.enumerateDevices();
-    videoDevices.value = devices.filter(device => device.kind === 'videoinput');
-
-    // Set the first device as the default selected device
-    if (videoDevices.value.length > 0) {
-      selectedVideoDevice.value = videoDevices.value[0].deviceId;
-    }
-  } catch (error) {
-    console.error('Error enumerating devices:', error);
-  }
-};
-
-const getDeviceLabel = (device) => {
-  if (device.label) {
-    return device.label;
-  } else if (device.kind === 'videoinput') {
-    return 'Camera ' + (videoDevices.value.indexOf(device) + 1);
-  } else if (device.kind === 'audioinput') {
-    return 'Microphone ' + (audioDevices.value.indexOf(device) + 1);
-  } else if (device.kind === 'audiooutput') {
-    return 'Speaker ' + (audioOutputDevices.value.indexOf(device) + 1);
-  } else {
-    return 'Unnamed Device';
-  }
-};
-
-const getTrackLabel = (deviceId) => {
-  const device = audioOutputDevices.find(device => device.deviceId === deviceId);
-  if (device) {
-    return new Promise(resolve => {
-      navigator.mediaDevices.getUserMedia({ audio: true })
-        .then(stream => {
-          const tracks = stream.getTracks();
-          const track = tracks.find(track => track.getSettings().deviceId === deviceId);
-          resolve(track.label);
-        })
-        .catch(error => console.error('Error getting user media:', error));
-    });
-  } else {
-    return 'Unnamed Device';
-  }
-};
-
 
 const testAudioOutput = async (event) => {
   event.preventDefault();
   try {
     const audioStream = await navigator.mediaDevices.getUserMedia({ audio: true });
-    const audio = new Audio('./button-198922.mp3');
-    audio.play();
+    audioRef.value = new Audio('./button-198922.mp3');
+    audioRef.value.play();
   } catch (error) {
     console.error('Error accessing audio output device:', error);
   }
 };
 
 const closeSettings = () => {
-    navigateTo('/')
+  if (audioRef.value) {
+    audioRef.value.pause();
+    audioRef.value = null;
+  }
+  navigateTo('/')
 };
 
-onMounted(() => {
-  getVideoDevices();
-  getAudioDevices();
-  getAudioOutputDevices();
 
-  navigator.mediaDevices.enumerateDevices()
-  .then(devices => {
-    devices.forEach(device => {
-      console.log(`Device ID: ${device.deviceId}`);
-      console.log(`Device Kind: ${device.kind}`);
-      console.log(`Device Label: ${device.label}`);
-      console.log(`Device Group ID: ${device.groupId}`);
 
-      // Get more information about the device
-      const constraints = {};
-      if (device.kind === 'audioinput' || device.kind === 'audiooutput') {
-        constraints.audio = true;
-      } else if (device.kind === 'videoinput') {
-        constraints.video = true;
-      }
-
-      navigator.mediaDevices.getUserMedia(constraints)
-        .then(stream => {
-          const tracks = stream.getTracks();
-          tracks.forEach(track => {
-            console.log(`Track Kind: ${track.kind}`);
-            console.log(`Track Label: ${track.label}`);
-            console.log(`Track Device ID: ${track.getSettings().deviceId}`);
-          });
-        })
-        .catch(error => console.error('Error getting user media:', error));
-    });
-  })
-  .catch(error => console.error('Error enumerating devices:', error));
+onMounted(async () => {
+  useLoadAudioOutput()
+  await useAudioOutputDevices(audioOutputDevices, selectedAudioOutputDevice)
+  await useAudioDevices(audioDevices, selectedAudioDevice)
+  await useVideoDevices(videoDevices, selectedVideoDevice)
 });
 
 </script>

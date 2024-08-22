@@ -2,7 +2,6 @@
 declare module 'vue' {
   export interface GlobalComponents {
     'HeaderNavBar': typeof import("../components/Header/NavBar.vue")['default']
-    'IconBlock': typeof import("../components/IconBlock.vue")['default']
     'IconsCameraoff': typeof import("../components/Icons/Cameraoff.vue")['default']
     'IconsCameraon': typeof import("../components/Icons/Cameraon.vue")['default']
     'IconsClose': typeof import("../components/Icons/Close.vue")['default']
@@ -33,7 +32,6 @@ declare module 'vue' {
     'Html': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyHeaderNavBar': typeof import("../components/Header/NavBar.vue")['default']
-    'LazyIconBlock': typeof import("../components/IconBlock.vue")['default']
     'LazyIconsCameraoff': typeof import("../components/Icons/Cameraoff.vue")['default']
     'LazyIconsCameraon': typeof import("../components/Icons/Cameraon.vue")['default']
     'LazyIconsClose': typeof import("../components/Icons/Close.vue")['default']
@@ -67,7 +65,6 @@ declare module 'vue' {
 }
 
 export const HeaderNavBar: typeof import("../components/Header/NavBar.vue")['default']
-export const IconBlock: typeof import("../components/IconBlock.vue")['default']
 export const IconsCameraoff: typeof import("../components/Icons/Cameraoff.vue")['default']
 export const IconsCameraon: typeof import("../components/Icons/Cameraon.vue")['default']
 export const IconsClose: typeof import("../components/Icons/Close.vue")['default']
@@ -98,7 +95,6 @@ export const Head: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyHeaderNavBar: typeof import("../components/Header/NavBar.vue")['default']
-export const LazyIconBlock: typeof import("../components/IconBlock.vue")['default']
 export const LazyIconsCameraoff: typeof import("../components/Icons/Cameraoff.vue")['default']
 export const LazyIconsCameraon: typeof import("../components/Icons/Cameraon.vue")['default']
 export const LazyIconsClose: typeof import("../components/Icons/Close.vue")['default']

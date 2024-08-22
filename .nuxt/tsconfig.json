@@ -94,7 +94,6 @@
   ],
   "exclude": [
     "../node_modules",
-    "../../../../../../node_modules",
     "../node_modules/nuxt/node_modules",
     "../node_modules/@nuxtjs/robots/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",

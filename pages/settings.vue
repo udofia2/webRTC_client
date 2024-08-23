@@ -130,8 +130,6 @@ const closeSettings = () => {
   navigateTo('/')
 };
 
-
-
 onMounted(async () => {
   useLoadAudioOutput()
   await useAudioOutputDevices(audioOutputDevices, selectedAudioOutputDevice)

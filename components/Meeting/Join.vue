@@ -149,4 +149,7 @@ const goToSettings = () => {
 
 }
 
+onMounted(() => {
+  useLoadAudioOutput()
+})
 </script>

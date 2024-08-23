@@ -15,7 +15,6 @@ import "destr";
 import "defu";
 import "klona";
 import "devalue";
-import "flowbite";
 const error500_vue_vue_type_style_index_0_scoped_df79c84d_lang = "";
 const _sfc_main = {
   __name: "error-500",
@@ -68,4 +67,4 @@ const error500 = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-d
 export {
   error500 as default
 };
-//# sourceMappingURL=error-500-24d3e9dc.js.map
+//# sourceMappingURL=error-500-e6679a5a.js.map

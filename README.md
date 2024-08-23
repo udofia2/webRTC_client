@@ -8,6 +8,9 @@ Visit - [https://webrtc01.netlify.app](https://webrtc01.netlify.app/)
 
 [Opera browser Demo](https://youtu.be/r91U-JnaW2E)
 
+![Join Meeting](assets/img/join_meeting.png)
+
+![Meeting Settings](assets/img/meeting_settings.png)
 
 ## Setup
 

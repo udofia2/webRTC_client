@@ -91,7 +91,7 @@ const videoElement = ref(null);
 
 const router = useRouter()
 
-async function toggleMic() {
+const toggleMic = async () => {
   if (!micOn.value) {
     try {
       audioStream.value = await navigator.mediaDevices.getUserMedia({ audio: true });
@@ -107,15 +107,13 @@ async function toggleMic() {
     }
   }
 }
-
-async function toggleCamera() {
+const toggleCamera = async () => {
   if (!cameraOn.value) {
     try {
       videoStream.value = await navigator.mediaDevices.getUserMedia({ video: true });
       if (videoElement.value) {
         videoElement.value.srcObject = videoStream.value;
       }
-      console.log('Video source assigned:', videoElement.value.srcObject);
       cameraOn.value = true;
     } catch (error) {
       console.error('Error accessing camera:', error);

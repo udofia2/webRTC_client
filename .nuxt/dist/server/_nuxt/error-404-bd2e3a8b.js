@@ -15,7 +15,6 @@ import "destr";
 import "defu";
 import "klona";
 import "devalue";
-import "flowbite";
 const firstNonUndefined = (...args) => args.find((arg) => arg !== void 0);
 const DEFAULT_EXTERNAL_REL_ATTRIBUTE = "noopener noreferrer";
 /*! @__NO_SIDE_EFFECTS__ */
@@ -284,4 +283,4 @@ const error404 = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-c
 export {
   error404 as default
 };
-//# sourceMappingURL=error-404-501b6ab8.js.map
+//# sourceMappingURL=error-404-bd2e3a8b.js.map

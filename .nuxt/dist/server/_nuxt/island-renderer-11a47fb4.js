@@ -14,7 +14,6 @@ import "defu";
 import "klona";
 import "devalue";
 import "vue/server-renderer";
-import "flowbite";
 const components_islands = {};
 const islandComponents = /* @__PURE__ */ Object.freeze({
   __proto__: null,
@@ -41,4 +40,4 @@ const islandRenderer = defineComponent({
 export {
   islandRenderer as default
 };
-//# sourceMappingURL=island-renderer-b33d0999.js.map
+//# sourceMappingURL=island-renderer-11a47fb4.js.map

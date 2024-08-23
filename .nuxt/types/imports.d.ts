@@ -125,6 +125,8 @@ declare global {
   const useServerSeoMeta: typeof import('../../node_modules/@unhead/vue')['useServerSeoMeta']
   const useSlots: typeof import('../../node_modules/vue')['useSlots']
   const useState: typeof import('../../node_modules/nuxt/dist/app/composables/state')['useState']
+  const useToggleCamera: typeof import('../../composables/useJoinMeeting')['useToggleCamera']
+  const useToggleMic: typeof import('../../composables/useJoinMeeting')['useToggleMic']
   const useTransitionState: typeof import('../../node_modules/vue')['useTransitionState']
   const useVideoDevices: typeof import('../../composables/useMediaSettings')['useVideoDevices']
   const watch: typeof import('../../node_modules/vue')['watch']
@@ -271,6 +273,8 @@ declare module 'vue' {
     readonly useServerSeoMeta: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useServerSeoMeta']>
     readonly useSlots: UnwrapRef<typeof import('../../node_modules/vue')['useSlots']>
     readonly useState: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/state')['useState']>
+    readonly useToggleCamera: UnwrapRef<typeof import('../../composables/useJoinMeeting')['useToggleCamera']>
+    readonly useToggleMic: UnwrapRef<typeof import('../../composables/useJoinMeeting')['useToggleMic']>
     readonly useTransitionState: UnwrapRef<typeof import('../../node_modules/vue')['useTransitionState']>
     readonly useVideoDevices: UnwrapRef<typeof import('../../composables/useMediaSettings')['useVideoDevices']>
     readonly watch: UnwrapRef<typeof import('../../node_modules/vue')['watch']>
@@ -411,6 +415,8 @@ declare module '@vue/runtime-core' {
     readonly useServerSeoMeta: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useServerSeoMeta']>
     readonly useSlots: UnwrapRef<typeof import('../../node_modules/vue')['useSlots']>
     readonly useState: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/state')['useState']>
+    readonly useToggleCamera: UnwrapRef<typeof import('../../composables/useJoinMeeting')['useToggleCamera']>
+    readonly useToggleMic: UnwrapRef<typeof import('../../composables/useJoinMeeting')['useToggleMic']>
     readonly useTransitionState: UnwrapRef<typeof import('../../node_modules/vue')['useTransitionState']>
     readonly useVideoDevices: UnwrapRef<typeof import('../../composables/useMediaSettings')['useVideoDevices']>
     readonly watch: UnwrapRef<typeof import('../../node_modules/vue')['watch']>

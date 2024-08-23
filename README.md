@@ -1,7 +1,13 @@
-# Nuxt 3 Minimal Starter
+# WebRTC Desktop interface sample design
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+[Firefox browser Demo](firefox_browser_demo.mp4)
+-
+<video controls src="firefox_browser_demo.mp4" title="Title"></video>
+
+[Opera browser Demo](opera_browser_demo.mp4)
+-
+<video controls src="opera_browser_demo.mp4" title="Title"></video>
 ## Setup
 
 Make sure to install the dependencies:
